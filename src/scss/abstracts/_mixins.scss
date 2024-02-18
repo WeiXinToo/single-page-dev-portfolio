@@ -1,0 +1,42 @@
+@use 'variable.scss' as *;
+
+@mixin flex($direction, $justify, $align, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
+
+@mixin grid($number, $fraction, $height, $gap) {
+  display: grid;
+  grid-template-columns:repeat($number, $fraction);
+  height: $height;
+  gap: $gap;
+}
+
+@mixin hover {  
+  color: var(--clr-highlight);
+  background-color: var(--clr-dark);
+}
+
+@mixin text-field {
+  width: 100%;
+  padding: 1em 2rem 1em 1em;
+  background-color: var(--clr-dark);
+  color: var(--clr-pearl-white);
+  border-bottom: 1px solid var(--clr-pearl-white);
+  border-radius: 0.15em;
+  outline: none;
+}
+
+@mixin btn {
+  /* font-size: v.$FS-S; */
+  font-weight: var(--fw-500);
+  letter-spacing: var(--letter-spacing);
+  color: var(--clr-light);
+  border-bottom: 1.75px solid var(--clr-highlight);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-bottom-color 0.15s, background-color 0.15s;
+}

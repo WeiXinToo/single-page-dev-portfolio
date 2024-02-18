@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+
+$vars: (
+  // COLORS
+  clr-bg: hsl(0, 0%, 8%),
+  clr-dark: hsl(0, 0%, 14%),
+  clr-highlight: #4ce19e,
+  clr-highlight-invalid: hsl(7, 100%, 68%),
+  clr-pearl-white: hsl(0, 0%, 85%),
+  clr-light: hsl(0, 0%, 100%),
+  // TYPOGRAPHY
+  ff: 'Space Grotesk' sans-serif,
+  fs-xsm: 0.75rem,
+  fs-sm: 1rem,
+  fs-m: 1.5rem,
+  fs-lrg: 2rem,
+  fs-xlrg: 2rem,
+  fw-400: 400,
+  fw-500: 500,
+  fw-700: 700,
+  letter-spacing: 0.1em,
+  // Alignment
+  center: 0 auto,
+);
+
+:root {
+  @each $property, $value in $vars {
+    --#{$property}:#{$value};
+  }
+}

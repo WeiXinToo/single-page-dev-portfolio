@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+img, svg, a{
+  display: block;
+  max-width: 100%;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+input, button, textarea{
+  font: inherit;
+  border: none;
+}
+
+textarea {
+  display: block;
+  resize: none;
+}
