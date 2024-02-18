@@ -6,9 +6,9 @@
     <meta name="author" content="Too Wei Xin">
     <meta name="description" content="Wei Xin's Web Development Portfolio">
     <title>Frontend Mentor | Single-page developer portfolio</title>
-    <link rel="icon" type="image/png" sizes="32x32" href=".src/assets/images/favicon-32x32.png">
-    <script type="module" crossorigin src="/single-page-dev-portfolio/assets/index-pc9_2FOU.js"></script>
-    <link rel="stylesheet" crossorigin href="/single-page-dev-portfolio/assets/index-rp60hOhB.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <script type="module" crossorigin src="/single-page-dev-portfolio/assets/index-HArLsqdn.js"></script>
+    <link rel="stylesheet" crossorigin href="/single-page-dev-portfolio/assets/index-P1MpWcxM.css">
   </head>
   <body>
     <header>
@@ -43,12 +43,12 @@
         <section class="hero">
           <h2 class="offscreen">Hero</h2>
           <div class="hero__wrapper">
-            <img class="hero__circle" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='129'%20height='129'%3e%3ccircle%20cx='830.5'%20cy='585.5'%20r='64'%20fill='none'%20stroke='%23FFF'%20transform='translate(-766%20-521)'/%3e%3c/svg%3e" alt="circle">
-            <img class="hero__rings" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='530'%20height='129'%3e%3cg%20fill='none'%20fill-rule='evenodd'%20stroke='%23FFF'%20opacity='.25'%3e%3cellipse%20cx='265'%20cy='40'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='52'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='65'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='77'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='89'%20rx='264.5'%20ry='39.5'/%3e%3c/g%3e%3c/svg%3e" alt="rings">
+            <img class="hero__circle" src="./pattern-circle.svg" alt="circle">
+            <img class="hero__rings" src="./pattern-rings.svg" alt="rings">
             <picture class="hero__frame">
-              <source media="(min-width: 62.5rem)" srcset="/single-page-dev-portfolio/assets/image-profile-desktop-Lrb93LlE.webp ">
-              <source media="(min-width: 37.5rem)" srcset="/single-page-dev-portfolio/assets/image-profile-tablet-WwHXdyRj.webp ">
-              <img class="hero__profile" src="/single-page-dev-portfolio/assets/image-profile-mobile-LO_LdooM.webp" alt="Profile Picture" width="348" height="766">
+              <source media="(min-width: 62.5rem)" srcset="./image-profile-desktop.webp ">
+              <source media="(min-width: 37.5rem)" srcset="./image-profile-tablet.webp ">
+              <img class="hero__profile" src="./image-profile-mobile.webp" alt="Profile Picture" width="348" height="766">
             </picture>
             <article class="hero__intro">
               <h2>Nice to <br class="tablet">meet you! <br class="desktop"> <span class="nowrap">I'm <span class="name">Wei Xin</span></span></h2>
@@ -88,7 +88,7 @@
       </section>
       <hr class="projects-skills-line">
       <div class="hr__container">
-        <img class="hr__rings" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='530'%20height='129'%3e%3cg%20fill='none'%20fill-rule='evenodd'%20stroke='%23FFF'%20opacity='.25'%3e%3cellipse%20cx='265'%20cy='40'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='52'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='65'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='77'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='89'%20rx='264.5'%20ry='39.5'/%3e%3c/g%3e%3c/svg%3e" alt="rings">
+        <img class="hr__rings" src="./pattern-rings.svg" alt="rings">
       </div>
       <section class="projects">
         <div class="project__title">
@@ -113,26 +113,26 @@
               <div class="input-container">
                 <label class="offscreen" for="name">NAME</label>
                 <input class="input-field js-name-input" type="text" id="name" name="name" placeholder="NAME">
-                <span class="js-invalid-logo-name"><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='12'%20cy='12'%20r='11.5'%20stroke='%23FF6F5B'/%3e%3crect%20x='11'%20y='6'%20width='2'%20height='9'%20rx='1'%20fill='%23FF6F5B'/%3e%3crect%20x='11'%20y='17'%20width='2'%20height='2'%20rx='1'%20fill='%23FF6F5B'/%3e%3c/svg%3e" alt="invalid logo" width="24" height="24"></span>
+                <span class="js-invalid-logo-name"><img src="./icon-invalid.svg" alt="invalid logo" width="24" height="24"></span>
               </div>
               <div class="js-name-error"></div>
               <div class="input-container">
                 <label class="offscreen" for="email">EMAIL</label>
                 <input class="input-field js-email-input" type="text" id="email" name="email" placeholder="EMAIL">
-                <span class="js-invalid-logo-email"><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='12'%20cy='12'%20r='11.5'%20stroke='%23FF6F5B'/%3e%3crect%20x='11'%20y='6'%20width='2'%20height='9'%20rx='1'%20fill='%23FF6F5B'/%3e%3crect%20x='11'%20y='17'%20width='2'%20height='2'%20rx='1'%20fill='%23FF6F5B'/%3e%3c/svg%3e" alt="invalid logo"  width="24" height="24"></span>
+                <span class="js-invalid-logo-email"><img src="./icon-invalid.svg" alt="invalid logo"  width="24" height="24"></span>
               </div>
               <div class="js-email-error"></div>
               <div class="input-container">
                 <label class="offscreen" for="message">MESSAGE</label>
                 <textarea class="input-field js-textarea" name="message" id="message" cols="30" rows="5" placeholder="MESSAGE"></textarea>
-                <span class="js-invalid-logo-message"><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='12'%20cy='12'%20r='11.5'%20stroke='%23FF6F5B'/%3e%3crect%20x='11'%20y='6'%20width='2'%20height='9'%20rx='1'%20fill='%23FF6F5B'/%3e%3crect%20x='11'%20y='17'%20width='2'%20height='2'%20rx='1'%20fill='%23FF6F5B'/%3e%3c/svg%3e" alt="invalid logo"  width="24" height="24"></span>
+                <span class="js-invalid-logo-message"><img src="./icon-invalid.svg" alt="invalid logo"  width="24" height="24"></span>
               </div>
               <div class="js-textarea-error"></div>
             </fieldset>
             <div class="btn-wrapper">
               <button type="submit" form="form">SEND MESSAGE</button>
               <dialog class="modal js-modal">
-                <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20viewBox='0,0,256,256'%20width='48px'%20height='48px'%3e%3cg%20fill='none'%20fill-rule='nonzero'%20stroke='none'%20stroke-width='1'%20stroke-linecap='butt'%20stroke-linejoin='miter'%20stroke-miterlimit='10'%20stroke-dasharray=''%20stroke-dashoffset='0'%20font-family='none'%20font-weight='none'%20font-size='none'%20text-anchor='none'%20style='mix-blend-mode:%20normal'%3e%3cg%20transform='scale(5.33333,5.33333)'%3e%3cpath%20d='M44,24c0,11.045%20-8.955,20%20-20,20c-11.045,0%20-20,-8.955%20-20,-20c0,-11.045%208.955,-20%2020,-20c11.045,0%2020,8.955%2020,20z'%20fill='%234ce19e'%3e%3c/path%3e%3cpath%20d='M34.602,14.602l-13.602,13.597l-5.602,-5.598l-2.797,2.797l8.399,8.403l16.398,-16.402z'%20fill='%23ffffff'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e" alt="success icon">
+                <img src="./icon-success.svg" alt="success icon">
                 <h3>Thank you!</h3>
                 <p>Your message has been received. I'll get back to you shortly.</p>
                 <button type="button" class="close-modal js-close-modal">Close</button>
@@ -140,7 +140,7 @@
             </div>
             
           </div>
-          <img class="form__rings" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='530'%20height='129'%3e%3cg%20fill='none'%20fill-rule='evenodd'%20stroke='%23FFF'%20opacity='.25'%3e%3cellipse%20cx='265'%20cy='40'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='52'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='65'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='77'%20rx='264.5'%20ry='39.5'/%3e%3cellipse%20cx='265'%20cy='89'%20rx='264.5'%20ry='39.5'/%3e%3c/g%3e%3c/svg%3e" alt="rings">
+          <img class="form__rings" src="./pattern-rings.svg" alt="rings">
         </form>
       </div>  
       <hr>
